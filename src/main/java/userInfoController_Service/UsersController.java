@@ -23,13 +23,13 @@ public class UsersController {
         return Response.ok(usersService.createUsersInfo(usersRequest)).build();
     }
 
-    @POST
-    @Path("/saveToDB")
-    public Response saveToDB (UsersRequest usersRequest) {
-         UsersService usersService = new UsersService();
-
-         return Response.ok(usersService.saveRequestToDB(usersRequest)).build();
-    }
+//    @POST
+//    @Path("/saveToDB")
+//    public Response saveToDB (UsersRequest usersRequest) {
+//         UsersService usersService = new UsersService();
+//
+//         return Response.ok(usersService.saveRequestToDB(usersRequest)).build();
+//    }
 
 
 

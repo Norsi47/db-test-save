@@ -11,6 +11,6 @@ public class Test {
         int l = 1;
         System.out.println("Hello Owl");
 
-        System.out.println(g + l);
+        System.out.println(g + l +" "+ f);
     }
 }

@@ -43,20 +43,20 @@ public class UsersService {
 
     //making this method to save into db table
     //db save
-    @Transactional
-    boolean saveRequestToDB(UsersRequest usersRequest) {
-
-        UsersInfoEnity usersInfoEnity = new UsersInfoEnity();
-
-//        usersInfoEnity.setFirstName(usersRequest.getFirstName)
-//                .set;
-//not saving
-        usersInfoEnity.setFirstName(usersRequest.getFirstName());
-        usersInfoEnity.setLastName(usersRequest.getLastName());
-
-         userInfoRepository.save(usersInfoEnity);
-
-        return true;
-    }
+//    @Transactional
+//    boolean saveRequestToDB(UsersRequest usersRequest) {
+//
+//        UsersInfoEnity usersInfoEnity = new UsersInfoEnity();
+//
+////        usersInfoEnity.setFirstName(usersRequest.getFirstName)
+////                .set;
+////not saving
+//        usersInfoEnity.setFirstName(usersRequest.getFirstName());
+//        usersInfoEnity.setLastName(usersRequest.getLastName());
+//
+//         userInfoRepository.save(usersInfoEnity);
+//
+//        return true;
+//    }
 
 }
